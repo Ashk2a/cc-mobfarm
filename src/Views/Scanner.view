@@ -1,0 +1,173 @@
+{  
+  Children = {
+    -- BACK BUTTON
+    {
+      Y = 2,
+      X = 2,
+      Name = "Back_Button",
+      Type = "Button",
+      Text = "<",
+      TextColour = "white",
+      BackgroundColour = "gray",
+      ActiveBackgroundColour = "green",
+      ["Toggle"] = false,
+    },
+    -- TITLE
+    {
+      Y = 0,
+      X = 11,
+      Name = "Panel_Title",
+      Type = "Button",
+      Text = "Scanner",
+      TextColour = "white",
+      BackgroundColour = "gray",
+      ActiveBackgroundColour = "gray",
+      Height = 3,
+      Width = 30,
+      ["Toggle"] = false,
+    },
+    -- PANEL BORDER
+    {
+      Y = 5,
+      X = 9,
+  
+      Name = "Panel_Border",
+      Type = "Button",
+      Text = "",
+      TextColour = "black",
+      BackgroundColour = "lightGray",
+      ActiveBackgroundColour = "green",
+      Enabled = false,
+      Height = 12,
+      Width = 34,
+      ["Toggle"] = false,
+    },
+    -- PANEL CORE
+    {
+      Y = 6,
+      X = 11,
+  
+      Name = "Panel_Core",
+      Type = "Button",
+      Text = "",
+      TextColour = "black",
+      BackgroundColour = "gray",
+      ActiveBackgroundColour = "green",
+      Enabled = false,
+      Height = 10,
+      Width = 30,
+      ["Toggle"] = false,
+    },
+    -- SCAN BUTTON
+    {
+
+      Y = 14,
+      X = 17,
+      Name = "Scan_Button",
+      Type = "Button",
+      Text = "Scan",
+      TextColour = "white",
+      BackgroundColour = "blue",
+      ActiveBackgroundColour = "blue",
+      Height = 1,
+      ["Toggle"] = false,
+    },
+    -- SAVE BUTTON
+    {
+      Y = 14,
+      X = 29,
+      Name = "Save_Button",
+      Type = "Button",
+      Text = "Save",
+      TextColour = "white",
+      BackgroundColour = "green",
+      ActiveBackgroundColour = "green",
+      Height = 1,
+      ["Toggle"] = false,
+    },
+    -- ####### Result_Label_?
+    -- Soul detected, type a name
+    {
+      Y = 8,
+      X = 13,
+      Name = "Result_Label_Detected",
+      Type = "Label",
+      Text = "Soul detected, type a name",
+      TextColour = "cyan",
+      Width = 30,
+      Align = "center",
+      Visible = false
+    },
+    -- Soul detected, rename it ?
+    {
+      Y = 8,
+      X = 13,
+      Name = "Result_Label_Rename",
+      Type = "Label",
+      Text = "Soul detected, rename it ?",
+      TextColour = "cyan",
+      Width = 30,  
+      Align = "center",
+      Visible = false
+    },
+    -- Soul successfully added
+    {
+      Y = 8,
+      X = 14,
+      Name = "Result_Label_Added",
+      Type = "Label",
+      Text = "Soul successfully added",
+      TextColour = "green",
+      Width = 30,  
+      Align = "center",
+      Visible = false
+    },
+    -- Soul successfully edited
+    {
+      Y = 8,
+      X = 14,
+      Name = "Result_Label_Edited",
+      Type = "Label",
+      Text = "Soul successfully edited",
+      TextColour = "green",
+      Width = 30,  
+      Align = "center",
+      Visible = false
+    },
+    -- Invalid name, try again
+    {
+      Y = 8,
+      X = 14,
+      Name = "Result_Label_InvalidName",
+      Type = "Label",
+      Text = "Invalid name, try again",
+      TextColour = "red",
+      Width = 30,  
+      Align = "center",
+      Visible = false
+    },
+    -- Missing or invalid item
+    {
+      Y = 8,
+      X = 14,
+      Name = "Result_Label_Error",
+      Type = "Label",
+      Text = "Missing or invalid item",
+      TextColour = "red",
+      Width = 30,  
+      Align = "center",
+      Visible = false
+    },
+    {
+      Y = 11,
+      X = 17,
+      Name = "TextBox",
+      Type = "TextBox",
+      TextColour = "black",
+      Width = 18,  
+      Align = "center",
+      Visible = false
+    }
+  },
+  BackgroundColour = "black"
+}

@@ -1,0 +1,446 @@
+{
+  "65fce1ed81413943f512cba1114d2bf7":{
+     "hash":"65fce1ed81413943f512cba1114d2bf7",
+     "name":"Slime Lava"
+  },
+  "0e7117ada476958b8bd2a945ee2d4bb3":{
+     "hash":"0e7117ada476958b8bd2a945ee2d4bb3",
+     "name":"Wither Skeleton"
+  },
+  "2b3899416c90431d7f213b88d69235c2":{
+     "hash":"2b3899416c90431d7f213b88d69235c2",
+     "name":"Pinch Beetle"
+  },
+  "e5b51f8dd49641a75ac229a8a3e687e7":{
+     "hash":"e5b51f8dd49641a75ac229a8a3e687e7",
+     "name":"Ent"
+  },
+  "efde9d2c3c74341bf1a94ceaa5eefef4":{
+     "hash":"efde9d2c3c74341bf1a94ceaa5eefef4",
+     "name":"Shade"
+  },
+  "ef54984bfcee6a3365d2bb58b9de3e1e":{
+     "hash":"ef54984bfcee6a3365d2bb58b9de3e1e",
+     "name":"Forest Raven"
+  },
+  "f494194708faa5d619fa3a6be4b16d36":{
+     "hash":"f494194708faa5d619fa3a6be4b16d36",
+     "name":"Nitro Creeper"
+  },
+  "617e5b59541c1142421a999b9fd29ea9":{
+     "hash":"617e5b59541c1142421a999b9fd29ea9",
+     "name":"Zombie"
+  },
+  "8792dcaf47686cc4067a188b280cfec2":{
+     "hash":"8792dcaf47686cc4067a188b280cfec2",
+     "name":"Mandrake"
+  },
+  "b60680c98d2d51978ebfca2c6424089a":{
+     "hash":"b60680c98d2d51978ebfca2c6424089a",
+     "name":"Zombie Pigman"
+  },
+  "4b8375ab24f6b78ab205e77fe94cc5b3":{
+     "hash":"4b8375ab24f6b78ab205e77fe94cc5b3",
+     "name":"Slime Blue"
+  },
+  "3db38712f318c3cb8e742cdf4186b4ab":{
+     "hash":"3db38712f318c3cb8e742cdf4186b4ab",
+     "name":"Demon"
+  },
+  "6cda3b2ca40b1dcda9483c5aac0ba54f":{
+     "hash":"6cda3b2ca40b1dcda9483c5aac0ba54f",
+     "name":"Minoshroom"
+  },
+  "ba727bc678cbf91ff471dba04208b9fb":{
+     "hash":"ba727bc678cbf91ff471dba04208b9fb",
+     "name":"Tainted Chicken"
+  },
+  "e016d7adce9d320bcd2f58e8cd7b0e67":{
+     "hash":"e016d7adce9d320bcd2f58e8cd7b0e67",
+     "name":"Pixie"
+  },
+  "47295c9dfb9f9a241da926aecfc8da9c":{
+     "hash":"47295c9dfb9f9a241da926aecfc8da9c",
+     "name":"Witch"
+  },
+  "3813e6deec463b48778e9ca797d1c9ee":{
+     "hash":"3813e6deec463b48778e9ca797d1c9ee",
+     "name":"Ocelot"
+  },
+  "dd5afa6daecb41e5b8238b251d390a90":{
+     "hash":"dd5afa6daecb41e5b8238b251d390a90",
+     "name":"Wind Demon Grunt Guardian"
+  },
+  "3c76df9210843bf4dd758cf619ff96df":{
+     "hash":"3c76df9210843bf4dd758cf619ff96df",
+     "name":"Taint Swarmer"
+  },
+  "24eaed72adf316e3031ac30e056096e7":{
+     "hash":"24eaed72adf316e3031ac30e056096e7",
+     "name":"Mini Me"
+  },
+  "7300a0e1afeb307e6067aede7f2960a1":{
+     "hash":"7300a0e1afeb307e6067aede7f2960a1",
+     "name":"Wild Deer"
+  },
+  "5f87db571f34a1759df4f25e78bfaed6":{
+     "hash":"5f87db571f34a1759df4f25e78bfaed6",
+     "name":"Mini Ghast"
+  },
+  "d0ba511539da31ce2e2ca86463de73b7":{
+     "hash":"d0ba511539da31ce2e2ca86463de73b7",
+     "name":"Wisp"
+  },
+  "97ef3564845df614b1561da65cdd2fe4":{
+     "hash":"97ef3564845df614b1561da65cdd2fe4",
+     "name":"Jungle Spider"
+  },
+  "80da25778ac70e5e0fa50c0b2e4035aa":{
+     "hash":"80da25778ac70e5e0fa50c0b2e4035aa",
+     "name":"Forest Squirrel"
+  },
+  "4de3627cf6019f37ff49896391620c4f":{
+     "hash":"4de3627cf6019f37ff49896391620c4f",
+     "name":"Poltergeist"
+  },
+  "1be102a78d38ed927f238746069db583":{
+     "hash":"1be102a78d38ed927f238746069db583",
+     "name":"Cultist Knight"
+  },
+  "7a6595293399e2f4ffeab21a5627d906":{
+     "hash":"7a6595293399e2f4ffeab21a5627d906",
+     "name":"Tainted Creeper"
+  },
+  "ce314e05a6f9891fa6cee6377c398d5e":{
+     "hash":"ce314e05a6f9891fa6cee6377c398d5e",
+     "name":"Cow"
+  },
+  "7567bac5f55e9388f5346b3574bf880e":{
+     "hash":"7567bac5f55e9388f5346b3574bf880e",
+     "name":"Enderminy"
+  },
+  "f8776b9614aa15c1f9b27742fa208977":{
+     "hash":"f8776b9614aa15c1f9b27742fa208977",
+     "name":"Hellhound"
+  },
+  "2589f38fe9ce7f683f457c2dde736b3c":{
+     "hash":"2589f38fe9ce7f683f457c2dde736b3c",
+     "name":"Slime Thaum"
+  },
+  "0762839acd0fcb2284c03cdea4f64034":{
+     "hash":"0762839acd0fcb2284c03cdea4f64034",
+     "name":"Firebat"
+  },
+  "2d1819d0518ac701616b4d4bed6fdff5":{
+     "hash":"2d1819d0518ac701616b4d4bed6fdff5",
+     "name":"Tainted Cow"
+  },
+  "168e5f3a13aefe28bbf6a0beed2b9005":{
+     "hash":"168e5f3a13aefe28bbf6a0beed2b9005",
+     "name":"Werewolf"
+  },
+  "3bd6ad2eaa4616ede5e7bea3c392a810":{
+     "hash":"3bd6ad2eaa4616ede5e7bea3c392a810",
+     "name":"Tainted Pig"
+  },
+  "e712cbd556a5aa6493ba21c4e5d57c47":{
+     "hash":"e712cbd556a5aa6493ba21c4e5d57c47",
+     "name":"Small Earth Golem"
+  },
+  "a673766c78513f786b823888ea2bc30d":{
+     "hash":"a673766c78513f786b823888ea2bc30d",
+     "name":"Wind Demon Grunt"
+  },
+  "47be58f02a1c5740947ebdcce54c939a":{
+     "hash":"47be58f02a1c5740947ebdcce54c939a",
+     "name":"Mind Spider"
+  },
+  "d2ceaf3892917568a0b3cb8501a2edc1":{
+     "hash":"d2ceaf3892917568a0b3cb8501a2edc1",
+     "name":"Pech"
+  },
+  "1a163e9efe75592927991c193e10baa7":{
+     "hash":"1a163e9efe75592927991c193e10baa7",
+     "name":"Phantom"
+  },
+  "d0d5bc3b17a23c1ae962b86e26b20d50":{
+     "hash":"d0d5bc3b17a23c1ae962b86e26b20d50",
+     "name":"Treefyd"
+  },
+  "e0a0cf086c01022b0ee32041a3d28ee4":{
+     "hash":"e0a0cf086c01022b0ee32041a3d28ee4",
+     "name":"Eldrich crab"
+  },
+  "888f63465941b36819e2c1ed06476675":{
+     "hash":"888f63465941b36819e2c1ed06476675",
+     "name":"Hellfish"
+  },
+  "8ecab45f7e0c7c2def94a21b0bac6629":{
+     "hash":"8ecab45f7e0c7c2def94a21b0bac6629",
+     "name":"Hobgoblin"
+  },
+  "a7d2a9c1697fe3b96cf02eb5cf76598c":{
+     "hash":"a7d2a9c1697fe3b96cf02eb5cf76598c",
+     "name":"Boulder Fist"
+  },
+  "1fb2d5955877914e89033c557b7b9b60":{
+     "hash":"1fb2d5955877914e89033c557b7b9b60",
+     "name":"Skeleton"
+  },
+  "81a0c610a4dd1c0c24e468fdd870ab3d":{
+     "hash":"81a0c610a4dd1c0c24e468fdd870ab3d",
+     "name":"Basalz"
+  },
+  "94530c1b4287b6540859f0c63fec1553":{
+     "hash":"94530c1b4287b6540859f0c63fec1553",
+     "name":"Spider"
+  },
+  "fd96599ceca7b5bb4ec8029b15378c73":{
+     "hash":"fd96599ceca7b5bb4ec8029b15378c73",
+     "name":"Bat"
+  },
+  "30d9f7dffcc745594fbb466e47d6dd6d":{
+     "hash":"30d9f7dffcc745594fbb466e47d6dd6d",
+     "name":"Owl"
+  },
+  "e44b2ecc99ae863f00d3cfe22afac649":{
+     "hash":"e44b2ecc99ae863f00d3cfe22afac649",
+     "name":"Village Guard"
+  },
+  "26301bfe97674803222f5052691f220f":{
+     "hash":"26301bfe97674803222f5052691f220f",
+     "name":"Penguin"
+  },
+  "3af93017eb1b4cdcabd05cdf59e55cc0":{
+     "hash":"3af93017eb1b4cdcabd05cdf59e55cc0",
+     "name":"Hedge Spider"
+  },
+  "f32982716700a9d5a9f2b63bf29551cb":{
+     "hash":"f32982716700a9d5a9f2b63bf29551cb",
+     "name":"Mini Spider"
+  },
+  "f96d0194f595c63935d26119c041b690":{
+     "hash":"f96d0194f595c63935d26119c041b690",
+     "name":"Cave Spider"
+  },
+  "275bde71ca7c08800f5f8eab3eefd707":{
+     "hash":"275bde71ca7c08800f5f8eab3eefd707",
+     "name":"Holy Elemental"
+  },
+  "779f896a48e97218a2a0e688d7eb485e":{
+     "hash":"779f896a48e97218a2a0e688d7eb485e",
+     "name":"Ghast"
+  },
+  "8ad32f3ea7425c98d063df9c8138b492":{
+     "hash":"8ad32f3ea7425c98d063df9c8138b492",
+     "name":"Wasp"
+  },
+  "d3fa5aedbda4436a684b0295ebadaa66":{
+     "hash":"d3fa5aedbda4436a684b0295ebadaa66",
+     "name":"Tainted Villager"
+  },
+  "e71d1dede6ed2ff004d58158fcd314e3":{
+     "hash":"e71d1dede6ed2ff004d58158fcd314e3",
+     "name":"Eldrich Guardian"
+  },
+  "4511dd19baed50162fc930923753e022":{
+     "hash":"4511dd19baed50162fc930923753e022",
+     "name":"Silverfish"
+  },
+  "2306433c684027219a47edb2bcf0fae8":{
+     "hash":"2306433c684027219a47edb2bcf0fae8",
+     "name":"Minedrake"
+  },
+  "052038852c81194fc8d7bd860a2ec5df":{
+     "hash":"052038852c81194fc8d7bd860a2ec5df",
+     "name":"Swarm Spider"
+  },
+  "6ee3fad73c73d82e799dba6cecb81090":{
+     "hash":"6ee3fad73c73d82e799dba6cecb81090",
+     "name":"Bighorn Sheep"
+  },
+  "8b43f06537bb5d69d2266e50c7da29a9":{
+     "hash":"8b43f06537bb5d69d2266e50c7da29a9",
+     "name":"Taint Swarm"
+  },
+  "020ae119506918c47ca5a7e3c67fe688":{
+     "hash":"020ae119506918c47ca5a7e3c67fe688",
+     "name":"Minotaur"
+  },
+  "0bc6d8b0613463d5e75fc9571350af7b":{
+     "hash":"0bc6d8b0613463d5e75fc9571350af7b",
+     "name":"Toad"
+  },
+  "1f87d4b4ae49b8b771ce9596bdb26f53":{
+     "hash":"1f87d4b4ae49b8b771ce9596bdb26f53",
+     "name":"Slime"
+  },
+  "b8499fe57766571a5c1c4d6b006f7c31":{
+     "hash":"b8499fe57766571a5c1c4d6b006f7c31",
+     "name":"Pig"
+  },
+  "1b4932379b1d999b7a767bdde332af9e":{
+     "hash":"1b4932379b1d999b7a767bdde332af9e",
+     "name":"Slime Pink"
+  },
+  "af5c0884c4e80e65f4510fd9f591b530":{
+     "hash":"af5c0884c4e80e65f4510fd9f591b530",
+     "name":"Blaze"
+  },
+  "1bd2655118564bf2b944df5bf99b2af5":{
+     "hash":"1bd2655118564bf2b944df5bf99b2af5",
+     "name":"Tiny Bird"
+  },
+  "85a6a931601499bd102f965ee36894d0":{
+     "hash":"85a6a931601499bd102f965ee36894d0",
+     "name":"Spectre"
+  },
+  "d328063ee280bbccc5736b2a27936aa6":{
+     "hash":"d328063ee280bbccc5736b2a27936aa6",
+     "name":"Snowman"
+  },
+  "cd789215242caf87e88c2da3468df8f6":{
+     "hash":"cd789215242caf87e88c2da3468df8f6",
+     "name":"Spider Flame"
+  },
+  "9c9de9e3849f456d411258da2e95a287":{
+     "hash":"9c9de9e3849f456d411258da2e95a287",
+     "name":"Human"
+  },
+  "cba97d54d15acf155a0509c7f2ef1a16":{
+     "hash":"cba97d54d15acf155a0509c7f2ef1a16",
+     "name":"Chicken"
+  },
+  "70c24b2bb6540a7460c80bc1c455a5b1":{
+     "hash":"70c24b2bb6540a7460c80bc1c455a5b1",
+     "name":"Horse"
+  },
+  "d38b336d092b4262b5ac777d5299cb11":{
+     "hash":"d38b336d092b4262b5ac777d5299cb11",
+     "name":"Villager"
+  },
+  "03d7a0bfdd722abab7fb89af7b3d0eee":{
+     "hash":"03d7a0bfdd722abab7fb89af7b3d0eee",
+     "name":"Redcap"
+  },
+  "2e4c59130bca2bfa35d453d8f17b8bd4":{
+     "hash":"2e4c59130bca2bfa35d453d8f17b8bd4",
+     "name":"Death Tome"
+  },
+  "e8fa96d0b3dd94a794f12b19c5904344":{
+     "hash":"e8fa96d0b3dd94a794f12b19c5904344",
+     "name":"Tainted Tentacle"
+  },
+  "2f8af2d3c3883ed9c857b9312c11e846":{
+     "hash":"2f8af2d3c3883ed9c857b9312c11e846",
+     "name":"Enderman"
+  },
+  "1e805f405a0797c86334b32d94bf0a76":{
+     "hash":"1e805f405a0797c86334b32d94bf0a76",
+     "name":"Slime Glob"
+  },
+  "42ee8ddaef8e9b008429ff52faac998f":{
+     "hash":"42ee8ddaef8e9b008429ff52faac998f",
+     "name":"Cultist Cleric"
+  },
+  "ae3476e6433637a8befa935856c89bb3":{
+     "hash":"ae3476e6433637a8befa935856c89bb3",
+     "name":"Golem"
+  },
+  "b309a888564bc66fed7c0f397f1f735c":{
+     "hash":"b309a888564bc66fed7c0f397f1f735c",
+     "name":"Twilight Wraith"
+  },
+  "4dd0d7aaf1a8eb666db1c5c72cc74b66":{
+     "hash":"4dd0d7aaf1a8eb666db1c5c72cc74b66",
+     "name":"Blizz"
+  },
+  "2846638f88b5c2d3bf203a3f34b2ea7d":{
+     "hash":"2846638f88b5c2d3bf203a3f34b2ea7d",
+     "name":"Blitz"
+  },
+  "f2c67a8b975f08a5ac30b897dfb50705":{
+     "hash":"f2c67a8b975f08a5ac30b897dfb50705",
+     "name":"Troll"
+  },
+  "48014cb34e6a61572c820228c8bd9700":{
+     "hash":"48014cb34e6a61572c820228c8bd9700",
+     "name":"Creeper"
+  },
+  "a0a29bba3a5fb33753eb988b94d14dd0":{
+     "hash":"a0a29bba3a5fb33753eb988b94d14dd0",
+     "name":"Natura Imp"
+  },
+  "83ee6cda552c39f2c69f26cc449c30f1":{
+     "hash":"83ee6cda552c39f2c69f26cc449c30f1",
+     "name":"Ice Crystal"
+  },
+  "b7ce4b41abb506739a44a851901cad98":{
+     "hash":"b7ce4b41abb506739a44a851901cad98",
+     "name":"Sheep"
+  },
+  "4e4f97f6ff5b1abd78252a3cd86508d1":{
+     "hash":"4e4f97f6ff5b1abd78252a3cd86508d1",
+     "name":"Zombie Furious"
+  },
+  "2ca17f7291fb35ad316247b27a281d23":{
+     "hash":"2ca17f7291fb35ad316247b27a281d23",
+     "name":"Wild Boar"
+  },
+  "fc6f529874fa49863b860c1ee6b1c5ee":{
+     "hash":"fc6f529874fa49863b860c1ee6b1c5ee",
+     "name":"Banshee"
+  },
+  "c7b18441e2b091f6af79ecaf44182310":{
+     "hash":"c7b18441e2b091f6af79ecaf44182310",
+     "name":"Taintacle Minion"
+  },
+  "af5f92e836a5270ee701062b3b09a1a3":{
+     "hash":"af5f92e836a5270ee701062b3b09a1a3",
+     "name":"MushroomCow"
+  },
+  "c03b143b8b4c38224105b36dee89946c":{
+     "hash":"c03b143b8b4c38224105b36dee89946c",
+     "name":"Squid"
+  },
+  "3a9b853353d9e00ec87f3a8486bcf0b2":{
+     "hash":"3a9b853353d9e00ec87f3a8486bcf0b2",
+     "name":"Wolf"
+  },
+  "3c35847ab06a93831d4ad57284f606a4":{
+     "hash":"3c35847ab06a93831d4ad57284f606a4",
+     "name":"Skeleton Druid"
+  },
+  "6ad5b16b7ec183d7ebeb1353f1e8e6c8":{
+     "hash":"6ad5b16b7ec183d7ebeb1353f1e8e6c8",
+     "name":"Rosester"
+  },
+  "c444403194a6bcc1546c7c75d2fdad50":{
+     "hash":"c444403194a6bcc1546c7c75d2fdad50",
+     "name":"Fallen Angel"
+  },
+  "d9d2159d1fb5975d4f0e57a20bf03490":{
+     "hash":"d9d2159d1fb5975d4f0e57a20bf03490",
+     "name":"Wolf Hostile"
+  },
+  "ccfdc22474d646737a8351e2b38aa2d5":{
+     "hash":"ccfdc22474d646737a8351e2b38aa2d5",
+     "name":"Loup megagarou"
+  },
+  "fbf2a88220a746d89830125acea29055":{
+     "hash":"fbf2a88220a746d89830125acea29055",
+     "name":"Ice Demon"
+  },
+  "9f661bc7d314c5e98b35c14966ae3e1f":{
+     "hash":"9f661bc7d314c5e98b35c14966ae3e1f",
+     "name":"Witch Hunter"
+  },
+  "2ecb6de272cd928e751d41cdf53515ad":{
+     "hash":"2ecb6de272cd928e751d41cdf53515ad",
+     "name":"Tainted Sheep"
+  },
+  "cfb71124791ddf14dca0e6d6bf63d27b":{
+     "hash":"cfb71124791ddf14dca0e6d6bf63d27b",
+     "name":"Slime Maze"
+  }
+}

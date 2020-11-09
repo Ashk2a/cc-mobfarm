@@ -1,0 +1,3 @@
+local ScannerMgr = {}
+
+return ScannerMgr

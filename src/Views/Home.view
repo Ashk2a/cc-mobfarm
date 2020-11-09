@@ -1,0 +1,117 @@
+{
+  Children = {
+    -- ########################
+    -- SPAWNER 1 BUTTON
+    {
+      Y = 2,
+      X = 2,
+      Name = "Spawner_1_Button",
+      Type = "Button",
+      Text = "Spawner 1",
+      TextColour = 'white',
+      BackgroundColour = 'red',
+      ActiveBackgroundColour = 'green',
+      Height = 3,
+      ["Toggle"] = false,
+    },
+    -- SPAWNER 1 LABEL
+    {
+      Y = 6,
+      X = 2,
+      Name = "Spawner_1_Label",
+      Type = "Label",
+      Text = "EMPTY",
+      TextColour = 'white',
+    },
+    -- SPAWNER 2 BUTTON
+    {
+      Y = 8,
+      X = 2,
+      Name = "Spawner_2_Button",
+      Type = "Button",
+      Text = "Spawner 2",
+      TextColour = 'white',
+      BackgroundColour = 'red',
+      ActiveBackgroundColour = 'green',
+      Height = 3,
+      ["Toggle"] = false,
+    },
+    -- SPAWNER 2 LABEL
+    {
+      Y = 12,
+      X = 2,
+      Name = "Spawner_2_Label",
+      Type = "Label",
+      Text = "EMPTY",
+      TextColour = 'white',
+    },
+    -- SPAWNER 3 BUTTON
+    {
+      Y = 14,
+      X = 2,
+      Name = "Spawner_3_Button",
+      Type = "Button",
+      Text = "Spawner 3",
+      TextColour = 'white',
+      BackgroundColour = 'red',
+      ActiveBackgroundColour = 'green',
+      Height = 3,
+      ["Toggle"] = false,
+    },
+    -- SPAWNER 2 LABEL
+    {
+      Y = 18,
+      X = 2,
+      Name = "Spawner_3_Label",
+      Type = "Label",
+      Text = "EMPTY",
+      TextColour = 'white',
+    },
+    -- ########################
+    -- LIST VIEW MOB
+    {
+      Y = 2,
+      X = 20,
+      Name = "msList",
+      Type = "ListView",
+      Height = 11,
+      Width = "60%",
+      BackgroundColour = 'gray',
+      TextColour = 'white',
+      CanSelect = true
+    },
+    -- ########################
+    -- MENU SCAN
+    {
+      Y = 19,
+      X = 25,
+      Name = "Scanner",
+      Type = "Button",
+      Text = "Scan",
+      TextColour = 'white',
+      BackgroundColour = 'blue', -- 8192
+      ["Toggle"] = false,
+    },
+    {
+      Y = 19,
+      X = 32,
+      Name = "Settings",
+      Type = "Button",
+      Text = "Settings",
+      TextColour = 'white',
+      BackgroundColour = 'blue', -- 8192
+      ["Toggle"] = false,
+    },
+    {
+      Y = 19,
+      X = 43,
+      Name = "Reboot",
+      Type = "Button",
+      Text = "Reboot",
+      TextColour = "white",
+      BackgroundColour =  "red",
+      ["Toggle"] = false,
+    }
+  },
+  BackgroundColour = 'black'
+}

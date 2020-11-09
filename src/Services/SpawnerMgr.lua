@@ -1,0 +1,3 @@
+local SpawnerMgr = {}
+
+return SpawnerMgr
