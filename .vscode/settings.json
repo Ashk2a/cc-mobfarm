@@ -7,6 +7,7 @@
 		"term",
 		"colors",
 		"colours",
-		"peripheral"
+		"peripheral",
+		"fs"
 	]
 }

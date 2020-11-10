@@ -1,3 +1,5 @@
+local json = require("/apis/Json")
+
 local AppData = {}
 
 AppData.numChars = "/.appData"
@@ -15,7 +17,7 @@ function AppData.File:__tostring()
 end
 
 function AppData.File:new (o)
-  p = o or {}   -- create object if user does not provide one
+  local p = o or {}   -- create object if user does not provide one
   setmetatable(p, self)
   self.__index = self
   if o then
