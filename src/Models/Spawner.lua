@@ -6,13 +6,14 @@ local _spawners = tables.get("spawner")
 local Spawner = {}
 
 function Spawner:new(data)
-  s = data
+  local s = data
   -- virtual for GUI
   s.gui = {
     button = nil,
     label = nil,
     state = 'default'
   }
+
 	setmetatable(s, self)
 	self.__index = self
 	return s
@@ -43,7 +44,7 @@ end
 
 function Spawner.all(raw)
   raw = raw or false
-  
+
   local rawSpawners = json.decode(_spawners:getData())
   local results = {}
 

@@ -6,7 +6,7 @@ local _mobSouls = tables.get("mob_soul")
 local MobSoul = {} -- [hash]
 
 function MobSoul:new(data)
-  ms = data
+  local ms = data
   
 	setmetatable(ms, self)
 	self.__index = self

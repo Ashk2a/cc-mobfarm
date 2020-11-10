@@ -5,7 +5,7 @@ local log = utils.saveLog
 
 local View = {
   app = nil,
-  
+
   menu = {
     scanner = nil,
     settings = nil,
@@ -26,7 +26,7 @@ local function getMsByName(msName)
   return nil
 end
 
-local function updateSpawnersState(state)
+local function updateAllSpawnersState(state)
   for _, spawner in pairs(View.spawners) do
     spawner.gui.state = state
   end
@@ -64,7 +64,7 @@ function View.InitMsList()
 
   View.msList.OnSelect = function(_self, msName)
     local ms = getMsByName(msName)
-    updateSpawnersState('select')
+    updateAllSpawnersState('select')
 
     log("test", View.spawners)
   end
