@@ -30,7 +30,7 @@
     {
       Y = 4,
       X = 2,
-      Name = "MobKiller_Label",
+      Name = "MK_Label",
       Type = "Label",
       Text = "Mob killers",
       TextColour = 'white',
@@ -38,7 +38,7 @@
     {
       Y = 6,
       X = 2,
-      Name = "KillerJoe_Btn",
+      Name = "MK_killerJoe_Button",
       Type = "Button",
       Text = "Killer Joe",
       TextColour = 'white',
@@ -50,7 +50,7 @@
     {
       Y = 8,
       X = 2,
-      Name = "MobGrinder_Btn",
+      Name = "MK_mobGrinder_Button",
       Type = "Button",
       Text = "Mob Grinder",
       TextColour = 'white',
@@ -62,7 +62,7 @@
     {
       Y = 10,
       X = 2,
-      Name = "Grinder_Btn",
+      Name = "MK_grinder_Button",
       Type = "Button",
       Text = "Grinder",
       TextColour = 'white',
@@ -81,9 +81,21 @@
       TextColour = 'white',
     },
     {
+      Y = 4,
+      X = 43,
+      Name = "RemoveMember_Button",
+      Type = "Button",
+      Text = "Remove",
+      TextColour = 'white',
+      BackgroundColour = 'red',
+      ActiveBackgroundColour = 'red',
+      Height = 1,
+      ["Toggle"] = false,
+    },
+    {
       Y = 6,
       X = 20,
-      Name = "MembersList",
+      Name = "Members_List",
       Type = "ListView",
       Height = 8,
       Width = "60%",
@@ -94,7 +106,7 @@
     {
       Y = 14,
       X = 20,
-      Name = "AddMember",
+      Name = "AddMember_TextBox",
       Type = "TextBox",
       TextColour = "black",
       Width = 26,  
@@ -103,7 +115,7 @@
     {
       Y = 14,
       X = 46,
-      Name = "AddMember_Btn",
+      Name = "AddMember_Button",
       Type = "Button",
       Text = "Add",
       TextColour = 'white',

@@ -14,9 +14,9 @@ local View = {
 }
 
 local function InitMenu()
-  View.menu.scanner = View.app:GetObject("Scanner")
-  View.menu.settings = View.app:GetObject("Settings")
-  View.menu.reboot = View.app:GetObject("Reboot")
+  View.menu.scanner = View.app:GetObject("Scanner_Menu")
+  View.menu.settings = View.app:GetObject("Settings_Menu")
+  View.menu.reboot = View.app:GetObject("Reboot_Menu")
 
   View.menu.scanner.OnClick = function(_self)
     View.app:LoadView("Scanner")
@@ -33,7 +33,7 @@ local function InitMenu()
 end
 
 local function InitMsList()
-  View.msList = View.app:GetObject("msList")
+  View.msList = View.app:GetObject("MobSouls_List")
 
   local list = {}
 

@@ -1,7 +1,7 @@
 local bedrockPath='/apis/'
 os.loadAPI("/apis/Bedrock.lua")
 
-Bedrock.BasePath = bedrockPath 
+Bedrock.BasePath = bedrockPath
 Bedrock.ProgramPath = shell.getRunningProgram()
 
 local app = Bedrock:Initialise()

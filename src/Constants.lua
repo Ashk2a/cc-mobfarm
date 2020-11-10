@@ -1,5 +1,12 @@
 local Constants = {
-  sides = {"left", "right", "top", "bottom", "front", "back"},
+  sides = {
+    LEFT = "left",
+    RIGHT = "right",
+    TOP = "top",
+    BOTTOM = "bottom",
+    FRONT = "front",
+    BACK = "back"
+  },
   states = {
     default = 'default',
     selection = 'selection',
@@ -8,7 +15,8 @@ local Constants = {
   },
   formats = {
     spawner_label = "Spawner_%d_Label",
-    spawner_button = "Spawner_%d_Button"
+    spawner_button = "Spawner_%d_Button",
+    mk_button = "MK_%s_Button"
   },
   empty = 'EMPTY'
 }

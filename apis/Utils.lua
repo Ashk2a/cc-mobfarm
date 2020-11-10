@@ -9,27 +9,29 @@ function Utils.inTable(tbl, item)
 end
 
 function Utils.tprint(tbl, indent)
-  if tbl == nil then 
+  if tbl == nil then
     print() 
     return 0
   end
-  
-  if type(tbl) ~= "table" then 
+
+  if type(tbl) ~= "table" then
     print(tbl)
     return 0
-  end 
-  
+  end
+
   if not indent then
     indent = 0
   end
 
   for k, v in pairs(tbl) do
-    formatting = string.rep("  ", indent) .. k .. ": "
+    local formatting = string.rep("  ", indent) .. k .. ": "
     if type(v) == "table" then
       print(formatting)
       Utils.tprint(v, indent+1)
     elseif type(v) == 'boolean' then
-      print(formatting .. tostring(v))      
+      print(formatting .. tostring(v))
+    elseif type(v) == 'function' then
+      print(formatting .. 'function')
     else
       print(formatting .. v)
     end
@@ -44,17 +46,19 @@ function Utils.tprint2(tbl, indent)
   end
 
   for k, v in pairs(tbl) do
-    formatting = string.rep("  ", indent) .. k .. ": "
+    local formatting = string.rep("  ", indent) .. k .. ": "
     if type(v) == "table" then
       str = str .. formatting .. "\n"
       str = str .. Utils.tprint2(v, indent+1)
     elseif type(v) == 'boolean' then
-      str = str .. formatting .. tostring(v) .. "\n"    
+      str = str .. formatting .. tostring(v) .. "\n"
+    elseif type(v) == 'function' then
+      str = str .. formatting .. 'function' .. '\n'
     else
       str = str .. formatting .. v .. "\n"
     end
   end
-  
+
   return str
 end
 
@@ -63,6 +67,8 @@ function Utils.saveLog(fileName, obj)
 
   if type(obj) == "table" then
     file.write(Utils.tprint2(obj))
+  elseif type(obj) == "function" then
+    file.write("function")
   else
     file.write(obj)
   end

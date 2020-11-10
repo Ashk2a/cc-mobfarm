@@ -1,1 +1,7 @@
-Shade
+gui: 
+  killers: 
+members: 
+killers: 
+  mobGrinder: true
+  grinder: false
+  killerJoe: false

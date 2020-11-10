@@ -6,6 +6,7 @@
 		"shell",
 		"term",
 		"colors",
-		"colours"
+		"colours",
+		"peripheral"
 	]
 }
