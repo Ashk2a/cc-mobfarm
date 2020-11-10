@@ -1,3 +1,0 @@
-local SpawnerMgr = {}
-
-return SpawnerMgr

@@ -2,8 +2,11 @@ local tables = require("/apis/Tables")
 local json = require("/apis/Json")
 
 local _mobSouls = tables.get("mob_soul")
+local _caches = {
+  all = nil
+}
 
-local MobSoul = {} -- [hash]
+local MobSoul = {}
 
 function MobSoul:new(data)
   local ms = data
@@ -14,41 +17,55 @@ function MobSoul:new(data)
 end
 
 function MobSoul:refresh()
-  local rawMobSouls = MobSoul.all(true)
-  local raw = rawMobSouls[self.hash]
+  local raws = MobSoul.raws()
+  local raw = raws[self.hash]
   self.name = raw.name
-  
-  return self
 end
 
 function MobSoul:save()
-  local rawMobSouls = MobSoul.all(true)
+  local raws = MobSoul.raws()
 
   -- serialize
-  rawMobSouls[self.hash].name = self.name
+  raws[self.hash].name = self.name
 
-  _mobSouls["data"] = json.encode(rawMobSouls)
+  _mobSouls["data"] = json.encode(raws)
   _mobSouls:save()
-
-  return self
 end
 
-function MobSoul.all(raw)
-  raw = raw or false
-  
-  local rawMobSouls = json.decode(_mobSouls:getData())
-  local results = {}
+-- GLOBAL
 
-  if raw == false then
-    for hash, data in pairs(rawMobSouls) do
-      data.hash = hash
-      table.insert(results, MobSoul:new(data))
+function MobSoul.all()
+  if _caches.all == nil then
+    local raws = MobSoul.raws()
+    _caches.all = {}
+
+    for k, data in pairs(raws) do
+      data.hash = k
+      _caches.all[k] = MobSoul:new(data)
     end
-  else
-    results = rawMobSouls
   end
 
-  return results
+  return _caches.all
+end
+
+function MobSoul.raws()
+  return json.decode(_mobSouls:getData())
+end
+
+function MobSoul.getOneByHash(msHash)
+  return MobSoul.all()[msHash]
+end
+
+function MobSoul.getOneByName(msName)
+  local all = MobSoul.all()
+  
+  for _, ms in pairs(all) do
+      if ms.name == msName then
+        return ms
+      end
+  end
+
+  return nil
 end
 
 return MobSoul

@@ -9,7 +9,7 @@ local app = Bedrock:Initialise()
 app.DefaultView = "Home"
 
 app.OnViewLoad = function(name)
-  local view = require("/src/Actions/" .. name)
+  local view = require("/src/Actions/" .. name .. "Action")
   view.Initialise(app)
 end
 

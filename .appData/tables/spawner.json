@@ -1,1 +1,1 @@
-[{"direction":"EAST","soulHash":"","active":false,"redstoneColor":32768},{"direction":"SOUTH","soulHash":"","active":false,"redstoneColor":4096},{"direction":"NORTH","soulHash":"","active":false,"redstoneColor":512}]
+[{"direction":"EAST","active":false,"redstoneColor":32768,"mobSoulHash":"9f661bc7d314c5e98b35c14966ae3e1f"},{"direction":"SOUTH","active":false,"redstoneColor":4096,"mobSoulHash":"f96d0194f595c63935d26119c041b690"},{"direction":"NORTH","active":false,"redstoneColor":512,"mobSoulHash":"e712cbd556a5aa6493ba21c4e5d57c47"}]
